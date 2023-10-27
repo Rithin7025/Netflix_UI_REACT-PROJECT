@@ -1,0 +1,31 @@
+.row{
+    margin-left: 20px;
+    color: #fff;
+}
+
+.posters{
+ display: flex; /*if multiple image come, it display as row*/ 
+ padding: 20px;
+ overflow-x: scroll;
+ overflow-y: hidden;
+}
+/*class to remover the scroll bar*/
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+.poster{
+ max-height: 250px;
+ margin-right: 10px ;
+ cursor: pointer;
+}
+
+.smallposter{
+    max-height: 150px;
+    margin-right: 10px ;
+    cursor: pointer;
+}
+
+.poster:hover{
+    transform: scale(1.1)}
